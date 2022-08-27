@@ -1,0 +1,30 @@
+.about{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.about-left{
+    justify-content: center;
+    padding: 100px;
+}
+.about-left h1{
+    color: #fff;
+    font-weight: 900;
+    font-size: 2rem;
+}
+.about-left h2{
+    color: #fff;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.about-left p{
+    padding-top: 10px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1rem;
+}
+.about-right{
+    height: 80vh;
+    width: 100%;
+}

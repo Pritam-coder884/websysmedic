@@ -1,0 +1,52 @@
+.DoctorConsultancy{
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-left: 10rem;
+}
+.DoctorConsultancy h1{
+    margin-left: 250px;
+    color: #fff;
+    font-weight: 600;
+}
+.DoctorConsultancy-types{
+    padding-top: 40px;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.Features-card{
+    padding-top: 20px;
+    width: 250px;
+    height: 200px;
+    background-color: #fff;
+}
+.Features-card h2{
+    /* margin-left: 250px; */
+    color: aqua;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 300;
+}
+.Features-card img{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+}
+.Features-card p{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Features-card button{
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+    padding: 10px;
+    color: white;
+    background: rgb(2, 93, 136);
+    border: none;
+    box-shadow: 20px 30px 40px rgba(0, 0, 0, 0.6);
+}

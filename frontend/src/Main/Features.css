@@ -1,0 +1,41 @@
+.features{
+    padding: 10rem;
+    align-items: center;
+}
+.Features-top{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    height: 40px;
+    width: 500px;
+    align-items: center;
+    padding: 6px;
+    margin-left: 160px;
+}
+.Features-top input{
+    background: none;
+    border: none;
+}
+.Features-bottom{
+    padding-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+}
+.Features-card{
+    padding-top: 20px;
+    width: 250px;
+    height: 200px;
+    background-color: #fff;
+}
+.Features-card h1{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 300;
+}
+.Features-card img{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+}
