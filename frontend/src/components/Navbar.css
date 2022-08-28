@@ -33,6 +33,7 @@
 }
 nav{
     height:80px;
+    box-shadow: 20px 30px 20px rgba(0,0,0,0.1);
 }
 nav img{
     width:100px;

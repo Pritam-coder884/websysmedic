@@ -22,9 +22,11 @@ const Navbar = () => {
             Features
           </li>
          </Link>
+         <Link to="/prescription">
           <li>
             Prescription
           </li>
+         </Link>
          <Link to="/pdf">
           <li>
             pdf download

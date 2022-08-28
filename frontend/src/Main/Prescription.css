@@ -1,0 +1,27 @@
+.Prescription{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Prescription-left{
+    margin-left: 100px;
+}
+.Prescription-left input{
+    width: 350px;
+    padding: 20px;
+    line-height: 30px;
+    background: none;
+    border: none;
+    border-bottom: solid rgba(0, 0, 0, 0.3);
+}
+.Prescription-left button{
+    padding: 20px;
+    background: cyan;
+    color: white;
+}
+.Prescription-left input::placeholder{
+    color:white;
+    font-size: 15px;
+}

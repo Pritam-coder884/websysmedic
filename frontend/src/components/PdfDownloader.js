@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import { saveAs } from 'file-saver';
+import Navbar from './Navbar';
 
 class PdfDownloader extends Component {
   state = {
@@ -24,6 +25,8 @@ class PdfDownloader extends Component {
 
   render() {
     return (
+      <>
+      <Navbar />
       <div className="App">
         <input type="text" placeholder="Name" name="name" onChange={this.handleChange}/>
         <input type="number" placeholder="Receipt ID" name="receiptId" onChange={this.handleChange} />
@@ -31,6 +34,8 @@ class PdfDownloader extends Component {
         <input type="number" placeholder="Price 2" name="price2" onChange={this.handleChange} />
         <button onClick={this.createAndDownloadPdf}>Download PDF</button>
       </div>
+      </>
+    
     );
   }
 }
